@@ -3,13 +3,15 @@
 
 // primeiro exemplo: estilo musicais ordem crescente;
 let música = ["pop", "funk", "rock", "sertanejo", "gospel"];
+
+// pop: 0/ funk: 1/ rock: 2/ sertanejo:3/ gospel:4.
 console.log(música.slice(3));
 console.log(música.slice(1));
-// pop: 0/ funk: 1/ rock: 2/ sertanejo:3/ gospel:4.
 
 // segundo exemplo: estilo musicais ordem decrescente;
 let músicas = ["pop", "funk", "rock", "sertanejo", "gospel"];
+
+// pop: 0/ funk: -4/ rock: -3/ sertanejo:-2/ gospel:-1.
 console.log(músicas.slice(0));
 console.log(músicas.slice(-4));
 console.log(músicas.slice(-1));
-// pop: 0/ funk: -4/ rock: -3/ sertanejo:-2/ gospel:-1.
